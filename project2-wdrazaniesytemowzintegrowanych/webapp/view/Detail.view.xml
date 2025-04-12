@@ -1,0 +1,53 @@
+<mvc:View controllerName="project1.controller.Detail" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <VBox class="sapUiSmallMargin">
+        <Button 
+            text="Back"
+            press="onBackPress"
+            icon="sap-icon://nav-back"
+            type="Transparent"
+            class="sapUiSmallMarginTop" />
+        
+        <Button 
+            text="Edit"
+            press="onEditPress"
+            visible="true"
+            type="Emphasized"
+            class="sapUiSmallMarginTop" />
+        
+        <Panel headerText="{i18n>alcoholDetails}" class="sapUiSmallMarginTop" expandable="false">
+            <HBox>
+                <Avatar class="sapUiSmallMarginEnd" initials="{alcoholModel>/name}" />
+                
+                <VBox class="sapUiMediumMarginEnd">
+                    <!-- Nazwa -->
+                    <Text text="Nazwa: " />
+                    <Input value="{alcoholModel>/name}" editable="{=${editModel>/editMode} }"/>
+
+                    <!-- Typ -->
+                    <Text text="Typ: " />
+                    <Input value="{alcoholModel>/type}" editable="{=${editModel>/editMode} }"/>
+
+                    <!-- Wiek -->
+                    <Text text="Wiek: " />
+                    <Input value="{alcoholModel>/age}" editable="{=${editModel>/editMode} }"/>
+                </VBox>
+                
+                <VBox>
+                    <!-- Kraj -->
+                    <Text text="Kraj: " />
+                    <Input value="{alcoholModel>/country}" editable="{=${editModel>/editMode} }"/>
+
+                    <!-- Opis -->
+                    <Text text="Opis: " />
+                    <Input value="{alcoholModel>/description}" editable="{=${editModel>/editMode} }"/>
+                </VBox>
+            </HBox>
+        </Panel>
+
+        <!-- Przycisk Save oraz Cancel w trybie edycji -->
+        <HBox visible="{${editModel>/editMode}}">
+            <Button text="Save" press="onSavePress"/>
+            <Button text="Cancel" press="onCancelPress"/>
+        </HBox>
+    </VBox>
+</mvc:View>

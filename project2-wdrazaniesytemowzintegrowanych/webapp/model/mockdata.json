@@ -1,0 +1,164 @@
+{
+    "Alcohols": [
+      {
+        "id": "1",
+        "name": "Macallan Sherry Oak 18 Years",
+        "type": "Whisky",
+        "age": 18,
+        "country": "Scotland",
+        "description": "An exclusive single malt Scotch whisky matured in sherry-seasoned oak casks, known for its deep and rich flavor."
+      },
+      {
+        "id": "2",
+        "name": "Louis XIII de Rémy Martin",
+        "type": "Cognac",
+        "age": 40,
+        "country": "France",
+        "description": "A luxurious cognac created from over 1,200 eaux-de-vie, aged for decades in Limousin oak barrels."
+      },
+      {
+        "id": "3",
+        "name": "Yamazaki 18 Year Old",
+        "type": "Whisky",
+        "age": 18,
+        "country": "Japan",
+        "description": "A premium Japanese single malt whisky known for its elegance, dried fruit notes, and oaky finish."
+      },
+      {
+        "id": "4",
+        "name": "Dom Pérignon Vintage 2012",
+        "type": "Champagne",
+        "age": 10,
+        "country": "France",
+        "description": "A legendary vintage Champagne offering full flavor and elegance from meticulously selected grapes."
+      },
+      {
+        "id": "5",
+        "name": "Dalmore 25 Year Old",
+        "type": "Whisky",
+        "age": 25,
+        "country": "Scotland",
+        "description": "A rare whisky with a rich fruity bouquet and long finish, aged in sherry and port casks."
+      },
+      {
+        "id": "6",
+        "name": "Beluga Gold Line",
+        "type": "Vodka",
+        "age": 5,
+        "country": "Russia",
+        "description": "An exclusive vodka, five times filtered and matured for months, crafted from natural ingredients."
+      },
+      {
+        "id": "7",
+        "name": "Clase Azul Ultra",
+        "type": "Tequila",
+        "age": 5,
+        "country": "Mexico",
+        "description": "A handcrafted ultra-premium tequila aged for 5 years in sherry casks, known for its bold taste and aroma."
+      },
+      {
+        "id": "8",
+        "name": "Château d'Yquem 2001",
+        "type": "Wine",
+        "age": 24,
+        "country": "France",
+        "description": "A prestigious sweet wine from Sauternes, with a honeyed, peachy, and spicy flavor profile."
+      },
+      {
+        "id": "9",
+        "name": "Glenfiddich 30 Year Old",
+        "type": "Whisky",
+        "age": 30,
+        "country": "Scotland",
+        "description": "A premium single malt with deep notes of chocolate, leather, and spice, aged for three decades."
+      },
+      {
+        "id": "10",
+        "name": "Hibiki 21 Year Old",
+        "type": "Whisky",
+        "age": 21,
+        "country": "Japan",
+        "description": "One of the finest Japanese blended whiskies, known for its harmony, complexity, and refined aroma."
+      },
+      {
+        "id": "11",
+        "name": "Courvoisier L’Essence",
+        "type": "Cognac",
+        "age": 35,
+        "country": "France",
+        "description": "A rare cognac from precious barrels, blending tradition and innovation, presented in a luxury decanter."
+      },
+      {
+        "id": "12",
+        "name": "Pappy Van Winkle’s 23 Year Old",
+        "type": "Bourbon",
+        "age": 23,
+        "country": "USA",
+        "description": "A legendary American bourbon sought after by collectors, with a rich and complex flavor profile."
+      },
+      {
+        "id": "13",
+        "name": "Johnnie Walker Blue Label Ghost and Rare",
+        "type": "Whisky",
+        "age": 30,
+        "country": "Scotland",
+        "description": "A limited edition blend featuring whiskies from closed distilleries, offering deep, refined character."
+      },
+      {
+        "id": "14",
+        "name": "Château Margaux 2015",
+        "type": "Wine",
+        "age": 10,
+        "country": "France",
+        "description": "One of the most prestigious Bordeaux reds, known for elegance, structure, and aging potential."
+      },
+      {
+        "id": "15",
+        "name": "Patrón en Lalique Serie 2",
+        "type": "Tequila",
+        "age": 8,
+        "country": "Mexico",
+        "description": "An ultra-premium tequila in a Lalique crystal decanter, aged in oak barrels for a refined flavor."
+      },
+      {
+        "id": "16",
+        "name": "Dictador 2 Masters Royal Tokaji",
+        "type": "Rum",
+        "age": 40,
+        "country": "Colombia",
+        "description": "A unique rum aged in sweet Tokaji wine casks, delivering a complex, sweet-spicy profile."
+      },
+      {
+        "id": "17",
+        "name": "Krug Clos du Mesnil",
+        "type": "Champagne",
+        "age": 15,
+        "country": "France",
+        "description": "A luxurious blanc de blancs from a single vineyard, known for its precision and mineral finish."
+      },
+      {
+        "id": "18",
+        "name": "Gordon & MacPhail Generations 80 Year Old",
+        "type": "Whisky",
+        "age": 80,
+        "country": "Scotland",
+        "description": "The oldest bottled single malt in the world, distilled in 1940 and aged for 80 years."
+      },
+      {
+        "id": "19",
+        "name": "Tesseron Cognac Lot No. 29",
+        "type": "Cognac",
+        "age": 50,
+        "country": "France",
+        "description": "An ultra-rare cognac made from exceptionally old eaux-de-vie, offering a velvety texture and deep aroma."
+      },
+      {
+        "id": "20",
+        "name": "Penfolds Grange Bin 95 2010",
+        "type": "Wine",
+        "age": 15,
+        "country": "Australia",
+        "description": "Australia’s flagship red wine, prized for its structure, depth, and decades-long aging potential."
+      }
+    ]
+  }
